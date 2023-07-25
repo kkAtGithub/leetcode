@@ -7,7 +7,6 @@ type TreeNode struct {
 	right *TreeNode
 }
 
-// 后序遍历二叉树
 func traverse(root *TreeNode) {
 	if root != nil {
 		// 前序位置
